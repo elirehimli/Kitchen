@@ -1,0 +1,49 @@
+.head{
+    background-color: rgba(128, 128, 128, 0.247);
+    padding: 20px;
+}
+.head h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.display{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.text5{
+    padding: 10px;
+}
+.text5 img{
+    width: 350px;
+    box-shadow: 0 0 10px gray;
+    transition: .3s;
+}
+.text5 img:hover{
+    box-shadow: 0 0 10px black;
+    transform: scale(1.1);
+}
+.text5 h2,article{
+    width: 340px;
+    text-align: center;
+    padding-top: 22px;
+}
+.text5 h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.text5 article{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.pagination{
+    text-align: center;
+    padding: 20px;
+}

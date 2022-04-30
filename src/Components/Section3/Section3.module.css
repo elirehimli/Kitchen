@@ -1,0 +1,55 @@
+.section3{
+    padding-top: 30px;
+    text-align: center;
+}
+.section3 h1{
+    font-size: 25px;
+    color: brown;
+    text-decoration: overline;
+}
+.eats{
+    /* display: flex; */
+    justify-content: space-evenly;
+    padding-top:10px ;
+}
+.yemek img{
+    width: 80%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.692);
+}
+.text article{
+    font-size: 17px;
+    font-weight: 600;
+    color: brown;
+    width: 80%;
+    margin: 0 auto;
+}
+.text h6{
+    font-size: 17px;
+    width: 80%;
+    margin: 0 auto;
+}
+.text a{
+    font-size: 17px;
+    color: brown;
+    font-weight: 600;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .section3 h1{
+        font-size: 30px;
+    }
+    .eats{
+        display: flex;
+        padding-top:30px ;
+    }
+    .yemek img{
+        width: 350px;
+    }
+    .text article{
+        font-size: 20px;
+    }
+    
+}

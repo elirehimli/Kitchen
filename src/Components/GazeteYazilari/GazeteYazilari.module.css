@@ -1,0 +1,54 @@
+.section2{
+    background-color: rgba(128, 128, 128, 0.055);
+    padding-bottom: 50px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.747);
+    border-radius: 5px;
+}
+.textt{
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.205);
+}
+.textt h1{
+    font-size: 40px;
+}
+.textt p{
+    font-size: 25px;
+}
+.kebab{
+    text-align: center;
+    padding-top: 10px;
+}
+.kebab h1{
+    font-size: 27px;
+    text-decoration: overline;
+    color: brown;
+}
+.kebabdis{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.wid img{
+    width: 350px;
+    height: 35vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.726);
+    transition: .7s;
+    object-fit: cover;
+}
+.wid img:hover{
+    border-radius: 200px;
+}
+.sis{
+    text-align: center;
+}
+.sis h1{
+    margin-top: 20px;
+    font-size: 22px;
+    color: brown;
+}
+.sis p{
+    width: 350px;
+    margin: 0 auto;
+    font-size: 17px;
+}

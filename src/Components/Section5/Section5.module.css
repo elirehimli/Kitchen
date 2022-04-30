@@ -1,0 +1,33 @@
+.section5{
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.123);
+    box-shadow: 0 0 10px gray;
+}
+.section5 h1{
+    font-size: 25px;
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.slider{
+    margin-left: -10px;
+    /* display: flex; */
+    justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .section5{
+        padding: 30px;;
+    }
+    .section5 h1{
+        font-size: 35px;
+    }
+    .slider{
+        display: flex;
+        margin-left: 0;
+
+    }
+
+}

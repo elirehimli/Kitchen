@@ -1,0 +1,60 @@
+.bg{
+    background-color: rgba(128, 128, 128, 0.274);
+    padding: 30px;
+}
+.calismak{
+    display: flex;
+    justify-content: space-around;
+}
+.calismak2 h2{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.calismak h1{
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.share{
+    padding-top: 50px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.hr{
+    width: 70%;
+    background-color: orange;
+    margin: 0 auto;
+    height: 1px;
+}
+.foto{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foto h1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.foto img{
+    width: 600px;
+}
+.text{
+    text-align: center;
+    padding: 40px;
+}
+.text h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    width: 70%;
+    margin:0 auto;
+}
